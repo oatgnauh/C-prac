@@ -21,11 +21,11 @@ void main()
 		{"zhaoqi",  84,91,80,77}
 	};
 	course c = Calmean(stu,4);
-	cout<<"����\t"<<"��ѧ\t"<<"�����\t"<<"Ӣ��\t"<<"����\t"<<endl;
+	cout<<"name\t"<<"math\t"<<"computer\t"<<"English\t"<<"physics\t"<<endl;
 	for(int i=0;i<4;i++)
 		display(stu[i]);
 	cout<<"--------------------------------------------------"<<endl;
-	cout<<"ƽ����\t"<<c.math<<"\t"<<c.computer<<"\t"<<c.english<<"\t"<<c.physics<<endl;
+	cout<<"average\t"<<c.math<<"\t"<<c.computer<<"\t"<<c.english<<"\t"<<c.physics<<endl;
 }
 void display(student &stu)
 {
