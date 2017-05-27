@@ -28,7 +28,7 @@ int main(){
     return 0;
 }
 //------------------类类型转为一般类型------------------------
-#incldue<iostream>
+#include<iostream>
 using namespace std;
 class Data{
 public:
