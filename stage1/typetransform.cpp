@@ -45,9 +45,9 @@ Data::operator double(){
     return da*1.0/db;
 }
 int main(){
-    Data d(5,4);
+    Data d(5,4);    //创建对象d
     double a=0.0;
-    a = d+1.0;
+    a = d+1.0;      //将类类型转换为double类型
     cout<<a<<endl;
     return 0;
 }
